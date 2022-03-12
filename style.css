@@ -1,0 +1,224 @@
+  /* Body */
+  .body {
+      background-color: #3d75e4;
+  }
+  
+  
+  
+  
+  /* Text */
+  h1, h2, h3 , h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+  }
+  p {
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  /* Buttons */
+  .btn {
+    background-color: #739DD3 !important;
+  }
+
+  
+  /* Navigation bar */
+  
+  /* General */
+  .customNav {
+    position: fixed;
+    width: 100%;
+    background: url("Images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  
+  /* Navigation links */
+  .customNav a {
+    color: #505D68 !important;
+  }
+  .navCTA {
+    font-size: 15px;
+  }
+
+
+  /* Jumbotron  */
+  .jumbotron {
+    background-image: url(Images/locations.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Jumbotron copy */
+.jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+  }
+
+  /* Jumbotron  */
+  .jumbotron2 {
+    background-image: url(Images/latestsermon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(75vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 93%;
+    margin-top: 13rem;
+  }
+
+  /* Jumbotron copy */
+  .jumboCopy2 {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: left;
+  }
+
+
+  /* Cards */
+  .content {
+    margin-top: 10rem;
+    padding: 50px;
+  }
+  
+  .cardContainer {
+    text-align: left;
+    margin-bottom: 13rem;
+  }
+
+  #cards {
+      display: flex;
+      justify-content: center;
+  }
+
+
+  /* Ministries */
+  .row {
+      padding: 15px;
+  }
+  .overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      background-color: rgba(187, 218, 252, 0.8);
+      height: 100%;
+      width: 97%;
+      opacity: 0;
+      transition: .75s ease;
+  }
+  .ctr {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      padding-top: 26%;
+  }
+  .imghov:hover .overlay {
+      opacity: 1;
+  }
+
+
+  .row2 {
+    padding: 15px;
+  }
+  .overlay2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(187, 218, 252, 0.8);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .75s ease;
+  }
+  .ctr2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top: 26%;
+  }
+  .imghov2:hover .overlay2 {
+    opacity: 1;
+  }  
+
+
+
+  /* Footer */
+  .page-footer {
+      margin-top: 10rem;
+  }
+
+
+  html {
+    font-family: "Helvetica Neue", sans-serif;
+    width: 100%;
+    color: #666666;
+    text-align: center;
+  }
+  
+  .popup-overlay {
+    /*Hides pop-up when there is no "active" class*/
+    visibility: hidden;
+    position: absolute;
+    background: #ffffff;
+    border: 3px solid #666666;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+  }
+  
+  .popup-overlay.active {
+    /*displays pop-up when "active" class is present*/
+    visibility: visible;
+    text-align: center;
+  }
+  
+  .popup-content {
+    /*Hides pop-up content when there is no "active" class */
+    visibility: hidden;
+  }
+  
+  .popup-content.active {
+    /*Shows pop-up content when "active" class is present */
+    visibility: visible;
+  }
+  
+  button {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 30px;
+    margin: .20rem;
+    font-size: 1rem;
+    color: #666666;
+    background: #ffffff;
+    border: 1px solid #666666;
+  }
+  
+  button:hover {
+    border: 1px solid #666666;
+    background: #666666;
+    color: #ffffff;
+  }
